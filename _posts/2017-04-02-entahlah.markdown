@@ -5,7 +5,7 @@ quote : Keep Moving Forward
 date: "2017-04-02 23:27:57 +0700"
 ---
 
-Masih kosong !
+Masih kosong!
 
 {% highlight ruby %}
 def show
