@@ -1,0 +1,66 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Akoharu
+email: asep.kahar@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Dicatat biar gak lupa.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: asepkohar01
+#github_username:  uh
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# Custom vars
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.jpg
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/asepkohar01
+    desc:	Follow me on twitter
+
+  - icon:	github
+    url:	https://github.com/akoharu
+    desc:	Fork me on github
+
+  - icon:	googleplus-alt
+    url:	https://google.com/+asepkohar01
+    desc:	Add me on google+
+
+  - icon:	feed
+    url:	http://akoharu.com/atom.xml
+    desc:	Subscribe to my feed
+
+menu:
+  - title:	Home
+    url:	/
+
+  - title:	About
+    url:	/about
+
+copyright:
+  author:	akoharu
+  url:		http://akoharu.com
+  type_title:	Some rights reserved
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
