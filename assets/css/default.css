@@ -117,6 +117,9 @@ img.site-icon {
 	border-radius: 50%;
 	transition-duration: .25s;
 	opacity: .9;
+	border-style: double;
+	border-width: 10px;
+	border-color: rgb(229, 231, 195);
 }
 
 img.site-icon:hover {

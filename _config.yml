@@ -33,6 +33,7 @@ exclude:
 
 # Custom vars
 icon:		/assets/images/icon.png
+me:		/assets/images/me.jpg
 cover:		/assets/images/cover.jpg
 
 social:
